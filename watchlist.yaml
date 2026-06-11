@@ -1,0 +1,38 @@
+# Cards tracked daily. `id` is the pokemontcg.io card id (set id + "-" + number).
+# Find ids at https://pokemontcg.io / https://pokemontcg.guru, then run:
+#   python -m pokebot validate
+# to confirm every id resolves before relying on it.
+#
+# Curated for liquidity: vintage WOTC holos + modern chase cards.
+cards:
+  # --- Vintage WOTC ---
+  - id: base1-4
+    note: Base Set Charizard (holo)
+  - id: base1-2
+    note: Base Set Blastoise (holo)
+  - id: base1-15
+    note: Base Set Venusaur (holo)
+  - id: neo1-9
+    note: Neo Genesis Lugia (holo)
+  - id: gym2-2
+    note: Blaine's Charizard (Gym Challenge holo)
+
+  # --- Modern era chase cards ---
+  - id: xy12-11
+    note: Evolutions Charizard (holo)
+  - id: sma-SV49
+    note: Hidden Fates Shiny Charizard-GX
+  - id: swsh35-74
+    note: Champion's Path Charizard VMAX
+  - id: swsh45sv-SV107
+    note: Shining Fates Shiny Charizard VMAX
+  - id: swsh7-215
+    note: Evolving Skies Umbreon VMAX alt art ("Moonbreon")
+  - id: swsh7-218
+    note: Evolving Skies Rayquaza VMAX alt art
+  - id: swsh11-186
+    note: Lost Origin Giratina V alt art
+  - id: sv3pt5-199
+    note: 151 Charizard ex SIR
+  - id: sv4pt5-234
+    note: Paldean Fates Shiny Charizard ex
