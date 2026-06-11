@@ -3,7 +3,7 @@ name: daily-digest
 on:
   schedule:
     - cron: "0 1 * * *" # 09:00 Singapore time, daily
-  workflow_dispatch: {} # manual trigger for testing
+  workflow_dispatch: # manual trigger for testing
 
 permissions:
   contents: write # to commit the daily price snapshot back
