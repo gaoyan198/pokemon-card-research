@@ -38,13 +38,13 @@ def cmd_validate() -> int:
     provider = providers.PokemonTcgIoProvider(config.POKEMONTCG_API_KEY)
     bad = []
     for entry in watchlist:
-        row = provider.fetch_card(entry["id"])
+        row = provider.fetch_card(entry["id"], variant=entry.get("variant"))
         if row is None:
             bad.append(entry["id"])
             print(f"  ✗ {entry['id']}  ({entry.get('note', '')})")
         else:
             price = row["market"] if row["market"] is not None else row["cm_trend"]
-            print(f"  ✓ {entry['id']:<18} {row['name']:<24} ${price or 'n/a'}")
+            print(f"  ✓ {entry['id']:<18} {row['name']:<24} {row['variant']:<20} ${price or 'n/a'}")
     if bad:
         print(f"\n{len(bad)} invalid id(s) — fix watchlist.yaml: {bad}")
         return 1

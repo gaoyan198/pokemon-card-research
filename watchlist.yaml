@@ -3,6 +3,10 @@
 #   python -m pokebot validate
 # to confirm every id resolves before relying on it.
 #
+# Optional `variant:` pins a specific TCGplayer print run (e.g. unlimitedHolofoil
+# vs 1stEditionHolofoil — VERY different prices on WOTC cards). Unpinned cards use
+# the default preference order in pokebot/providers.py, which favours Unlimited.
+#
 # Curated for liquidity: vintage WOTC holos + modern chase cards.
 cards:
   # --- Vintage WOTC ---
@@ -13,9 +17,11 @@ cards:
   - id: base1-15
     note: Base Set Venusaur (holo)
   - id: neo1-9
-    note: Neo Genesis Lugia (holo)
+    variant: unlimitedHolofoil
+    note: Neo Genesis Lugia (Unlimited holo — 1st Ed is a separate, pricier asset)
   - id: gym2-2
-    note: Blaine's Charizard (Gym Challenge holo)
+    variant: unlimitedHolofoil
+    note: Blaine's Charizard (Gym Challenge Unlimited holo)
 
   # --- Modern era chase cards ---
   - id: xy12-11
