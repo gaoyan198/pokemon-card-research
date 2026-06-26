@@ -194,3 +194,17 @@ date,card_id,name,set_name,variant,market,low,mid,high,cm_trend,cm_avg30
 2026-06-25,swsh7-215,Umbreon VMAX,Evolving Skies,holofoil,2276.45,1999.99,2582.5,6000.0,1579.48,1538.35
 2026-06-25,swsh7-218,Rayquaza VMAX,Evolving Skies,holofoil,1055.07,1249.99,1450.0,3499.99,780.69,779.21
 2026-06-25,xy12-11,Charizard,Evolutions,holofoil,109.68,72.5,110.51,10000.0,210.35,134.08
+2026-06-26,base1-15,Venusaur,Base,holofoil,155.78,104.36,170.0,1199.0,841.63,504.39
+2026-06-26,base1-2,Blastoise,Base,holofoil,225.61,149.0,209.17,9999.0,129.14,139.78
+2026-06-26,base1-4,Charizard,Base,holofoil,630.39,534.99,696.72,1500.0,2711.81,1992.94
+2026-06-26,gym2-2,Blaine's Charizard,Gym Challenge,unlimitedHolofoil,566.63,479.99,1201.29,1499.99,715.88,523.66
+2026-06-26,neo1-9,Lugia,Neo Genesis,unlimitedHolofoil,530.83,390.88,424.99,615.74,342.36,325.2
+2026-06-26,sma-SV49,Charizard-GX,Hidden Fates Shiny Vault,holofoil,683.33,550.0,789.89,960.0,528.86,544.46
+2026-06-26,sv3pt5-199,Charizard ex,151,holofoil,438.92,371.17,486.62,10000.0,235.71,272.73
+2026-06-26,sv4pt5-234,Charizard ex,Paldean Fates,holofoil,336.53,312.72,372.5,1682.65,208.67,220.28
+2026-06-26,swsh11-186,Giratina V,Lost Origin,holofoil,866.21,794.0,903.08,4331.05,566.41,599.82
+2026-06-26,swsh35-74,Charizard VMAX,Champion's Path,holofoil,230.05,204.99,286.37,2300.0,173.62,198.95
+2026-06-26,swsh45sv-SV107,Charizard VMAX,Shining Fates Shiny Vault,holofoil,158.38,134.8,180.0,349.95,121.12,133.87
+2026-06-26,swsh7-215,Umbreon VMAX,Evolving Skies,holofoil,2144.7,1930.3,2532.49,6000.0,1579.48,1538.35
+2026-06-26,swsh7-218,Rayquaza VMAX,Evolving Skies,holofoil,1034.91,1249.99,1493.79,3499.99,780.69,779.21
+2026-06-26,xy12-11,Charizard,Evolutions,holofoil,109.68,72.5,111.49,10000.0,214.46,134.08
